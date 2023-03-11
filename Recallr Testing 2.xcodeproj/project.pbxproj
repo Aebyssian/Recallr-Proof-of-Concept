@@ -16,6 +16,9 @@
 		66A4595A29BA3BB0001FA2E1 /* Recallr_Testing_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4595929BA3BB0001FA2E1 /* Recallr_Testing_2Tests.swift */; };
 		66A4596429BA3BB0001FA2E1 /* Recallr_Testing_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4596329BA3BB0001FA2E1 /* Recallr_Testing_2UITests.swift */; };
 		66A4596629BA3BB0001FA2E1 /* Recallr_Testing_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4596529BA3BB0001FA2E1 /* Recallr_Testing_2UITestsLaunchTests.swift */; };
+		66A4597329BA3C2B001FA2E1 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4597229BA3C2B001FA2E1 /* Memory.swift */; };
+		66A4597529BA3D74001FA2E1 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4597429BA3D74001FA2E1 /* Collection.swift */; };
+		66A4597729BA3FAC001FA2E1 /* RecallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4597629BA3FAC001FA2E1 /* RecallManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		66A4595F29BA3BB0001FA2E1 /* Recallr Testing 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recallr Testing 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A4596329BA3BB0001FA2E1 /* Recallr_Testing_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recallr_Testing_2UITests.swift; sourceTree = "<group>"; };
 		66A4596529BA3BB0001FA2E1 /* Recallr_Testing_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recallr_Testing_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66A4597229BA3C2B001FA2E1 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		66A4597429BA3D74001FA2E1 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		66A4597629BA3FAC001FA2E1 /* RecallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				66A4594B29BA3BB0001FA2E1 /* Assets.xcassets */,
 				66A4594D29BA3BB0001FA2E1 /* LaunchScreen.storyboard */,
 				66A4595029BA3BB0001FA2E1 /* Info.plist */,
+				66A4597229BA3C2B001FA2E1 /* Memory.swift */,
+				66A4597429BA3D74001FA2E1 /* Collection.swift */,
+				66A4597629BA3FAC001FA2E1 /* RecallManager.swift */,
 			);
 			path = "Recallr Testing 2";
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A4597729BA3FAC001FA2E1 /* RecallManager.swift in Sources */,
+				66A4597329BA3C2B001FA2E1 /* Memory.swift in Sources */,
+				66A4597529BA3D74001FA2E1 /* Collection.swift in Sources */,
 				66A4594729BA3BAC001FA2E1 /* ViewController.swift in Sources */,
 				66A4594329BA3BAC001FA2E1 /* AppDelegate.swift in Sources */,
 				66A4594529BA3BAC001FA2E1 /* SceneDelegate.swift in Sources */,

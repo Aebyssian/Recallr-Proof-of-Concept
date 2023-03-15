@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		661B90DD29C0EE7C000EDAB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661B90DC29C0EE7B000EDAB9 /* GoogleService-Info.plist */; };
 		661B90DF29C12620000EDAB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B90DE29C12620000EDAB9 /* SignUpViewController.swift */; };
 		661B90E129C1263D000EDAB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B90E029C1263D000EDAB9 /* LoginViewController.swift */; };
 		661B90E629C128A9000EDAB9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B90E529C128A9000EDAB9 /* InitialViewController.swift */; };
+		661B90E829C22678000EDAB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661B90E729C22677000EDAB9 /* GoogleService-Info.plist */; };
 		66A4594329BA3BAC001FA2E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4594229BA3BAC001FA2E1 /* AppDelegate.swift */; };
 		66A4594529BA3BAC001FA2E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4594429BA3BAC001FA2E1 /* SceneDelegate.swift */; };
 		66A4594A29BA3BAC001FA2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A4594829BA3BAC001FA2E1 /* Main.storyboard */; };
@@ -44,10 +44,10 @@
 
 /* Begin PBXFileReference section */
 		1FEBCE69072F322A1CE2A9DA /* Pods-Recallr Testing 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recallr Testing 2.debug.xcconfig"; path = "Target Support Files/Pods-Recallr Testing 2/Pods-Recallr Testing 2.debug.xcconfig"; sourceTree = "<group>"; };
-		661B90DC29C0EE7B000EDAB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		661B90DE29C12620000EDAB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		661B90E029C1263D000EDAB9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		661B90E529C128A9000EDAB9 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		661B90E729C22677000EDAB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66A4593F29BA3BAC001FA2E1 /* Recallr Testing 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recallr Testing 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A4594229BA3BAC001FA2E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A4594429BA3BAC001FA2E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				66A4594B29BA3BB0001FA2E1 /* Assets.xcassets */,
 				66A4594D29BA3BB0001FA2E1 /* LaunchScreen.storyboard */,
 				66A4595029BA3BB0001FA2E1 /* Info.plist */,
-				661B90DC29C0EE7B000EDAB9 /* GoogleService-Info.plist */,
+				661B90E729C22677000EDAB9 /* GoogleService-Info.plist */,
 			);
 			path = "Recallr Testing 2";
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A4594F29BA3BB0001FA2E1 /* LaunchScreen.storyboard in Resources */,
-				661B90DD29C0EE7C000EDAB9 /* GoogleService-Info.plist in Resources */,
+				661B90E829C22678000EDAB9 /* GoogleService-Info.plist in Resources */,
 				66A4594C29BA3BB0001FA2E1 /* Assets.xcassets in Resources */,
 				66A4594A29BA3BAC001FA2E1 /* Main.storyboard in Resources */,
 			);

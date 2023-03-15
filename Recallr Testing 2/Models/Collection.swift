@@ -10,11 +10,22 @@ import Foundation
 struct Collection {
     var name: String
     var collection: [Memory]
-    var col_id: Int
+    var id: Int
     
+    
+    init (name: String, id: Int) {
+        self.name = name
+        self.id = id
+        collection = []
+    }
+    
+    mutating func addMemory(_ memory: Memory) {
+        collection.append(memory)
+    }
     
 }
 
 struct Master {
     var collections: [Collection]
 }
+

@@ -57,12 +57,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log In"/>
+                                <connections>
+                                    <action selector="loginInButtonPressed:" destination="R1x-sg-bjY" eventType="touchUpInside" id="AY6-5a-fz9"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPX-Tq-fkY">
+                                <rect key="frame" x="76" y="589" width="241" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.55577290059999995" green="0.16145733000000001" blue="0.14507955310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aqg-Ui-fmR"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="83H-mJ-CYe"/>
+                    <connections>
+                        <outlet property="emailField" destination="LYB-t7-JgE" id="FA7-48-daD"/>
+                        <outlet property="errorLabel" destination="jPX-Tq-fkY" id="21J-OU-SAF"/>
+                        <outlet property="loginInButton" destination="bfR-cV-GIv" id="P3g-AS-c9z"/>
+                        <outlet property="passwordField" destination="ePt-AQ-sQv" id="ex7-VZ-ZdJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Dn-bW-uIb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2AD2B625-7D77-41A1-8D68-E7437314017A</key>
+		<key>2332992D-2D3A-410C-8321-CF58DA1ED37B</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>971A51E5-8CEF-4AC5-89F8-C1D2AD352436</string>
+			<string>6A96F130-93AB-48D7-8CA4-68D0329DBC99</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-Recallr Testing 2-2023.03.15_10-47-34--0500.xcresult</string>
+			<string>Run-Recallr Testing 2-2023.03.15_12-04-33--0500.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -43,13 +43,103 @@
 			<key>signature</key>
 			<string>Run Recallr Testing 2</string>
 			<key>timeStartedRecording</key>
-			<real>700588054.40213799</real>
+			<real>700592673.70955896</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run Recallr Testing 2</string>
 			<key>uniqueIdentifier</key>
-			<string>2AD2B625-7D77-41A1-8D68-E7437314017A</string>
+			<string>2332992D-2D3A-410C-8321-CF58DA1ED37B</string>
+		</dict>
+		<key>AF2BB2F9-A3EC-4AA0-9321-89DE752856D6</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>ADC43658-0F0C-47E1-9BC5-77A67D7F0990</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Recallr Testing 2-2023.03.15_11-42-57--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Recallr Testing 2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Recallr Testing 2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Recallr Testing 2</string>
+			<key>timeStartedRecording</key>
+			<real>700591377.03264105</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Recallr Testing 2</string>
+			<key>uniqueIdentifier</key>
+			<string>AF2BB2F9-A3EC-4AA0-9321-89DE752856D6</string>
+		</dict>
+		<key>C72B5485-4130-4E05-922D-3FD9C256D168</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>58838E38-79DD-4629-818B-E7C3DBC2DF3F</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Recallr Testing 2-2023.03.15_12-05-52--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Recallr Testing 2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Recallr Testing 2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Recallr Testing 2</string>
+			<key>timeStartedRecording</key>
+			<real>700592752.32787395</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Recallr Testing 2</string>
+			<key>uniqueIdentifier</key>
+			<string>C72B5485-4130-4E05-922D-3FD9C256D168</string>
 		</dict>
 	</dict>
 </dict>

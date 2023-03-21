@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
                     self.errorLabel.text = e.localizedDescription
                     self.errorLabel.isHidden = false
                 } else {
-                    //self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: "LoginToMain", sender: self)
                 }
                 // ...
             }

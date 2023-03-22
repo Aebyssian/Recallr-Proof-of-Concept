@@ -6,7 +6,7 @@ The overall goal is to eventually create a free spaced repetition program that u
 
 
 
---Changelog--
+##Changelog
 
 v0.1: Users are now able to create an account and login. Basic structures of memories and collections in place.
 

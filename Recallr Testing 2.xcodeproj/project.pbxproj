@@ -11,6 +11,8 @@
 		661B90E129C1263D000EDAB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B90E029C1263D000EDAB9 /* LoginViewController.swift */; };
 		661B90E629C128A9000EDAB9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B90E529C128A9000EDAB9 /* InitialViewController.swift */; };
 		661B90E829C22678000EDAB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661B90E729C22677000EDAB9 /* GoogleService-Info.plist */; };
+		6667D3E329CB2B6B00452FA6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667D3E229CB2B6B00452FA6 /* TabBarController.swift */; };
+		6690B33529C9FE1A004B4885 /* RecallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690B33429C9FE1A004B4885 /* RecallViewController.swift */; };
 		66A4594329BA3BAC001FA2E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4594229BA3BAC001FA2E1 /* AppDelegate.swift */; };
 		66A4594529BA3BAC001FA2E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4594429BA3BAC001FA2E1 /* SceneDelegate.swift */; };
 		66A4594A29BA3BAC001FA2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A4594829BA3BAC001FA2E1 /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 		661B90E029C1263D000EDAB9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		661B90E529C128A9000EDAB9 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		661B90E729C22677000EDAB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6667D3E229CB2B6B00452FA6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6690B33429C9FE1A004B4885 /* RecallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallViewController.swift; sourceTree = "<group>"; };
 		66A4593F29BA3BAC001FA2E1 /* Recallr Testing 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recallr Testing 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A4594229BA3BAC001FA2E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A4594429BA3BAC001FA2E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,9 +127,11 @@
 		661B90E229C126BA000EDAB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6667D3E229CB2B6B00452FA6 /* TabBarController.swift */,
 				661B90DE29C12620000EDAB9 /* SignUpViewController.swift */,
 				661B90E029C1263D000EDAB9 /* LoginViewController.swift */,
 				661B90E529C128A9000EDAB9 /* InitialViewController.swift */,
+				6690B33429C9FE1A004B4885 /* RecallViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -364,9 +370,11 @@
 				66A4597729BA3FAC001FA2E1 /* RecallManager.swift in Sources */,
 				661B90DF29C12620000EDAB9 /* SignUpViewController.swift in Sources */,
 				66A4597329BA3C2B001FA2E1 /* Memory.swift in Sources */,
+				6667D3E329CB2B6B00452FA6 /* TabBarController.swift in Sources */,
 				66A4597529BA3D74001FA2E1 /* Collection.swift in Sources */,
 				661B90E129C1263D000EDAB9 /* LoginViewController.swift in Sources */,
 				66A4594329BA3BAC001FA2E1 /* AppDelegate.swift in Sources */,
+				6690B33529C9FE1A004B4885 /* RecallViewController.swift in Sources */,
 				66A4594529BA3BAC001FA2E1 /* SceneDelegate.swift in Sources */,
 				661B90E629C128A9000EDAB9 /* InitialViewController.swift in Sources */,
 			);

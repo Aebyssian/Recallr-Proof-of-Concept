@@ -105,7 +105,7 @@
         <!--Recall View Controller-->
         <scene sceneID="ZxU-GN-0Vd">
             <objects>
-                <viewController title="Recall View Controller" id="jiz-iV-exh" sceneMemberID="viewController">
+                <viewController title="Recall View Controller" id="jiz-iV-exh" customClass="RecallViewController" customModule="Recallr_Testing_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ane-zD-j8S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,11 +113,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Recall" image="r.rectangle.roundedbottom" catalog="system" landscapeImage="r.rectangle.roundedbottom" id="wxa-Uh-ToJ"/>
-                    <navigationItem key="navigationItem" title="Title" id="zfM-im-Ihr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgz-PY-OSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2521" y="625"/>
+            <point key="canvasLocation" x="2493.8931297709923" y="653.52112676056345"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="Ba7-Z0-obA">
@@ -156,7 +155,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="xPS-R8-Lg0">
             <objects>
-                <tabBarController id="AZu-TJ-BDx" sceneMemberID="viewController">
+                <tabBarController id="AZu-TJ-BDx" customClass="TabBarController" customModule="Recallr_Testing_2" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="jKS-Tk-prW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -173,6 +172,7 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U4Q-Dc-ZoR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Title" id="6A4-3F-xC4"/>
             </objects>
             <point key="canvasLocation" x="2401" y="-254"/>
         </scene>
@@ -368,7 +368,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jsw-xz-2Wm"/>
+        <segue reference="CWE-aG-8my"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>

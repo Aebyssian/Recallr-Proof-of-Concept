@@ -1,16 +1,5 @@
-//
-//  SignUpViewController.swift
-//  Recallr Testing 2
-//
-//  Created by Jacob Wilson on 3/14/23.
-//
-
 import UIKit
 import Firebase
-
-//good enough
-//should replace with some while loops
-//initially the passwordConfirmField kept returning nil so that's why this code is kinda weird
 
 class SignUpViewController: UIViewController {
     
@@ -38,7 +27,7 @@ class SignUpViewController: UIViewController {
                             self.doNotMatchLabel.text = desc
                             self.doNotMatchLabel.isHidden = false
                         } else {
-                            //self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                            self.performSegue(withIdentifier: "SignUpToMain", sender: self)
                         }
                     }
                 }
